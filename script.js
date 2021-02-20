@@ -2,7 +2,7 @@ let score = 0
 document.getElementById('button').addEventListener('click', newfunction)
 function newfunction () {
   score = document.getElementById('input').value
-  
+
   if (score >= 17) {
     document.getElementById('paragraph').innerHTML = 'you can see an R rated movie alone'
   } else if (score >= 13) {
